@@ -2,4 +2,4 @@
 contract_name="$1"
 ./vendor/SmartPyBasic/SmartPy.sh test "src/contracts/${contract_name}.py" "src/contracts/compiled/${contract_name}"
 echo "========="
-cat "src/scontracts/compiled/${contract_name}/test.output"
+cat "src/contracts/compiled/${contract_name}/test.output"
